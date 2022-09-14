@@ -23,8 +23,8 @@ after_success:
   - docker push thamakarthik/multi-server
   - docker push thamakarthik/multi-worker
   
-
-  deploy:
+  
+deploy:
   provider: elasticbeanstalk
   region: 'ap-south-1'
   app: 'multi-docker'
